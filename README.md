@@ -1,2 +1,2 @@
 # OpenMowerRos1GazeboSim
-Workdir for OpenMower Simulations using ROS1 and GAZEBO
+Workdir for OpenMower Simulation using ROS1 and GAZEBO
