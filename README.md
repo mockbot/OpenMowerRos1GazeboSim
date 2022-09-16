@@ -11,7 +11,7 @@ TODO:
 
 create catkin workspace and src directory
 checkout this_repository 'git clone https://github.com/mockbot/OpenMowerRos1GazeboSim.git' at your catkin workspace src directory
-setup all neccessary environments with source sources.bash
+setup all neccessary environments with "source ./sources.bash" from checkout directory.
 roslaunch gazebo_ros  <world>
 rosrun spawn openmower
 rosrun further tools for teleop or navigation (tbd)
