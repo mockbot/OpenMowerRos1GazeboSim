@@ -14,13 +14,14 @@ $ source /opt/ros/noetic/setup.bash
 
 - create catkin workspace and src directory
 
-$ mkdir -p $HOME/prog/OpenMowerRos1GazeboSimEnvironment/src
+$ mkdir -p $HOME/catkinworkspace4openmowersimulation/src
 
-$ cd $HOME/prog/OpenMowerRos1GazeboSimiEnvironment
+$ cd $HOME/catkinworkspace4openmowersimulation
 $ catkin_make
-$ cd src
 
 - checkout the additional gazebo model and worlds repository
+
+$ cd src
 
 $ git clone https://github.com/clearpathrobotics/cpr_gazebo.git
 
@@ -32,9 +33,7 @@ $ git clone https://github.com/mockbot/OpenMowerRos1GazeboSim.git
 
 $ source devel/setup.bash
 
-
-
-
+-- option ---
 setup all neccessary environments with "source ./sources.bash" from checkout directory.
 roslaunch gazebo_ros  <world>
 rosrun spawn openmower
