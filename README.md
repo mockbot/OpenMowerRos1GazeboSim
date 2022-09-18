@@ -9,17 +9,27 @@ Enjoy and improve the result. Sugguestions and improvements are welcome.
 
 TODO:
 - install ros noetic at your system and source your environment
+
 $ source /opt/ros/noetic/setup.bash
+
 - create catkin workspace and src directory
+
 $ mkdir -p $HOME/prog/OpenMowerRos1GazeboSimEnvironment/src
+
 $ cd $HOME/prog/OpenMowerRos1GazeboSimiEnvironment
 $ catkin_make
 $ cd src
+
 - checkout the additional gazebo model and worlds repository
+
 $ git clone https://github.com/clearpathrobotics/cpr_gazebo.git
+
 - checkout the OpenMowerRos1GazeboSim
+
 $ git clone https://github.com/mockbot/OpenMowerRos1GazeboSim.git
+
 - source the catkin development environment
+
 $ source devel/setup.bash
 
 
