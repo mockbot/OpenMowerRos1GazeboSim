@@ -2,7 +2,7 @@
 
 Hello world, 
 this is a trivial workflow for OpenMower Simulation using ROS1 and GAZEBO.
-It uses collectionc and work of many other authors, developers and me.
+It uses collections and amazing work of many other authors, developers and me.
 
 Enjoy and improve the result. Sugguestions and improvements are welcome.
 
