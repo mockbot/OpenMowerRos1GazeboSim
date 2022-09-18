@@ -1,39 +1,38 @@
 # OpenMowerRos1GazeboSim
 
 Hello world, 
-this is a:
-Workdir for OpenMower Simulation using ROS1 and GAZEBO
-Collection and work of many other authors, developers and me.
+this is a trivial workflow for OpenMower Simulation using ROS1 and GAZEBO.
+It uses collectionc and work of many other authors, developers and me.
 
 Enjoy and improve the result. Sugguestions and improvements are welcome.
 
-TODO:
-- install ros noetic at your system and source your environment
+## TODO:
+### install ros noetic at your system and source your environment
 
 $ source /opt/ros/noetic/setup.bash
 
-- create catkin workspace and src directory
+### create catkin workspace and src directory
 
 $ mkdir -p $HOME/catkinworkspace4openmowersimulation/src
 
 $ cd $HOME/catkinworkspace4openmowersimulation
 $ catkin_make
 
-- checkout the additional gazebo model and worlds repository
+### checkout the additional gazebo model and worlds repository
 
 $ cd src
 
 $ git clone https://github.com/clearpathrobotics/cpr_gazebo.git
 
-- checkout the OpenMowerRos1GazeboSim
+### checkout the OpenMowerRos1GazeboSim
 
 $ git clone https://github.com/mockbot/OpenMowerRos1GazeboSim.git
 
-- source the catkin development environment
+### source the catkin development environment
 
 $ source devel/setup.bash
 
--- option ---
+
 setup all neccessary environments with "source ./sources.bash" from checkout directory.
 roslaunch gazebo_ros  <world>
 rosrun spawn openmower
