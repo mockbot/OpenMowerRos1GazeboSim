@@ -36,10 +36,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>253 737000000</sim_time>
-      <real_time>50 531175268</real_time>
-      <wall_time>1663355518 335816153</wall_time>
-      <iterations>50247</iterations>
+      <sim_time>276 848000000</sim_time>
+      <real_time>73 783009109</real_time>
+      <wall_time>1667230490 436665253</wall_time>
+      <iterations>73358</iterations>
       <model name='agriculture_geom'>
         <pose>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -56,7 +56,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>139.891 26.1473 34.1493 0 0.275643 3.14159</pose>
+        <pose>8.9849 0.97877 10.7588 0 0.275643 3.14159</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

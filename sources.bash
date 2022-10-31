@@ -1,5 +1,5 @@
 export basedir=/home/ros/prog
-export catkindir=$based/catkin_openmower_simulator_ws
+export catkindir=$basedir/catkin_openmower_simulator_ws
 source /opt/ros/noetic/setup.bash
 source /usr/share/gazebo/setup.sh
 source $catkindir/devel/setup.bash
